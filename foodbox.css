@@ -1,0 +1,79 @@
+*root {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: red;
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+    /*height: 150px;*/
+}
+
+body {
+    background: #d3d3d3;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 100px;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 10px;
+}
+
+h4 {
+    margin: 10px;
+}
+
+img {
+    width: 120px;
+    height: 80px;
+    border-radius: 5px;
+    /*Colocando a imagem a direita*/
+    float: right;
+}
+
+.produto {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    border: 5px solid white;
+    /* sombreado na borda*/
+    box-shadow: 0 0 10px 0;
+    /*quando selecionar a div aparece a mãozinha*/
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn {
+    text-align: center;
+    background: green;
+    color: #ffffff;
+    font-size: 15px;
+    border: 5px solid lightgreen;
+    border-radius: 50px;
+    padding: 15px;
+    cursor: pointer;
+    width: 100%;
+}
+
+footer {
+    padding: 15px;
+    /*background: #aaa;*/
+    color: black;
+    text-align: center;
+}

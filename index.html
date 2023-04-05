@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="foodbox.css">
+    <title>FoodBox da Drive</title>
+</head>
+
+<body>
+    <header>
+        <h1>FoodBox da Drive</h1>
+        <h2>Monte o seu box e receba em 15 minutos</h2>
+    </header>
+
+    <h3>Primeiro, o seu prato</h3>
+    <div id="frango" class="produto" onclick="escolherFrango()">
+        <img src="img/prato1.jpg" alt="Foto do prato de frango">
+        <h4>Frango Yin-Yang</h4>
+        <p>Um pouco de batata, um pouco de salada</p>
+        <p><strong>R$ 19,90</strong></p>
+    </div>
+
+    <div id="carne" class="produto" onclick="escolherCarne()">
+        <img src="img/prato2.jpg" alt="Foto do prato de carne">
+        <h4>Carne e salada</h4>
+        <p>Partida ao meio, para aparecer mais carne</p>
+        <p><strong>R$ 24,90</strong></p>
+    </div>
+
+    <h3>Agora escolha a sua bebida</h3>
+    <div id="refrigerante" class="produto" onclick="escolherRefrigerante()">
+        <img src="img/bebida1.png" alt="Foto de refrigerante">
+        <h4>Bebida</h4>
+        <p>Refrigerante bem geladinho</p>
+        <p><strong>R$ 5,98</strong></p>
+    </div>
+
+    <div id="refresco" class="produto" onclick="escolherRefresco()">
+        <img src="img/bebida2.png" alt="Foto do refresco">
+        <h4>Refresco</h4>
+        <p>Não é suco da fruta. É artificial </p>
+        <p><strong>R$ 3,90</strong></p>
+    </div>
+
+    <h3>Por fim, a sua sobremesas</h3>
+    <div id="pudim" class="produto" onclick="escolherPudim()">
+        <img src="img/sobremesa1.jpg" alt="Foto do pudim">
+        <h4>Pudim</h4>
+        <p>Feito com leite puro</p>
+        <p><strong>R$ 7,98</strong></p>
+    </div>
+
+    <div id="sorvete" class="produto" onclick="escolherSorvete()">
+        <img src="img/sobremesa2.jpg " alt="Foto do sorvete">
+        <h4>Sorvete</h4>
+        <p>Enviamos 3 bolas porém sabores sortidos</p>
+        <p><strong>R$ 3,90</strong></p>
+    </div>
+
+    <button class="btn" onclick="finalizarPedido()">
+        Finalizar pedido 
+    </button>
+
+    <script src="foodbox.js"></script>
+
+</body>
+
+<footer>
+    Todos direitos reservados &copy - Nando Fongas - 2021
+</footer>
+
+</html>
